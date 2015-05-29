@@ -1,0 +1,58 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
+.Aligner {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.Aligner-item {
+
+    max-width: 50%;
+
+}
+
+.Aligner-item--top {
+
+    align-self: flex-start;
+
+}
+
+.Aligner-item--bottom {
+
+    align-self: flex-end;
+
+}
+
+#logo {
+
+    width: 50vh;
+
+    height: 50vh;
+
+}
+
+#sysI {
+
+    display:none;
+
+    font-family:"GothamPro", "Helvetica Neue", Helvetica, "Roboto", "Lucida Grande", "Century Gothic", sans-serif;
+
+}
+
+#red {
+
+    transform: translate(-100vh, -100vh);
+
+}
+
+#blue {
+
+    transform: translate(100vh, 100vh);
+
+}

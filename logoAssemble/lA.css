@@ -1,6 +1,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:700);
 
+* {
+
+    font-family:"GothamPro", "Helvetica Neue", Helvetica, "Roboto", "Lucida Grande", "Century Gothic", sans-serif;
+
+}
+
 .Aligner {
 
     display: flex;
@@ -40,8 +46,6 @@
 #sysI {
 
     display:none;
-
-    font-family:"GothamPro", "Helvetica Neue", Helvetica, "Roboto", "Lucida Grande", "Century Gothic", sans-serif;
 
 }
 
